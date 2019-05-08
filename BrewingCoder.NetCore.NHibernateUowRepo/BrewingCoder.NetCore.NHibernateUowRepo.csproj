@@ -1,20 +1,22 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;netcoreapp2.0;netcoreapp2.2</TargetFrameworks>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <TargetFrameworks>;netcoreapp2.2;netcoreapp2.0;netstandard2.0</TargetFrameworks>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <Authors>G. Scott Singleton</Authors>
-    <Company></Company>
+    <Company>[Self]</Company>
     <Description>Unit of Work and Repository Pattern base for nHibernate projects.</Description>
     <Copyright>2019 G. Scott Singleton</Copyright>
     <RepositoryUrl>https://github.com/BrewingCoder/NhibernateUoWRepoPattern</RepositoryUrl>
     <RepositoryType>GIT</RepositoryType>
-    <PackageTags>nHibernate,Unit of Work,Repository,Dependency Injection</PackageTags>
+    <PackageTags>nHibernate,UnitofWork,Repository,DependencyInjection</PackageTags>
     <PackageProjectUrl>https://github.com/BrewingCoder/NhibernateUoWRepoPattern</PackageProjectUrl>
     <Version>1.1.0</Version>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
     <PackageReleaseNotes>support for .net standard 2, .netcore 2.0, .netcore 2.2</PackageReleaseNotes>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <Title>Nhibernate UnitOfWork &amp; Repository Pattern</Title>
+    <Summary>A base building block for using Fluent NHibernate in a UnitOfWork and Repository Pattern.  Specifically designed to support Dependency Injection.</Summary>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="FluentNHibernate" Version="2.1.2" />
