@@ -1,12 +1,23 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <TargetFrameworks>netstandard2.0;netcoreapp2.0;netcoreapp2.2</TargetFrameworks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>G. Scott Singleton</Authors>
+    <Company></Company>
+    <Description>Unit of Work and Repository Pattern base for nHibernate projects.</Description>
+    <Copyright>2019 G. Scott Singleton</Copyright>
+    <RepositoryUrl>https://github.com/BrewAndCode/log4net.RavenDB</RepositoryUrl>
+    <RepositoryType>GIT</RepositoryType>
+    <PackageTags>nHibernate,Unit of Work,Repository,Dependency Injection</PackageTags>
+    <PackageLicenseUrl>http://www.gnu.org/licenses/lgpl-3.0-standalone.html</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/BrewingCoder/NhibernateUoWRepoPattern</PackageProjectUrl>
+    <Version>1.1.0</Version>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <PackageReleaseNotes>support for .net standard 2, .netcore 2.0, .netcore 2.2</PackageReleaseNotes>
   </PropertyGroup>
-
   <ItemGroup>
-    <PackageReference Include="FluentNHibernate" Version="2.1.2" />
-    <PackageReference Include="NHibernate" Version="5.2.5" />
+    <PackageReference Include="FluentNHibernate" Version="2.1.*" />
+    <PackageReference Include="NHibernate" Version="5.2.*" />
   </ItemGroup>
-
 </Project>
