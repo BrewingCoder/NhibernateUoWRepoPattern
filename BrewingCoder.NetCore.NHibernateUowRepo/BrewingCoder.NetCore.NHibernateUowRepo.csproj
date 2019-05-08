@@ -10,7 +10,7 @@
     <RepositoryUrl>https://github.com/BrewingCoder/NhibernateUoWRepoPattern</RepositoryUrl>
     <RepositoryType>GIT</RepositoryType>
     <PackageTags>nHibernate,Unit of Work,Repository,Dependency Injection</PackageTags>
-    <PackageLicenseUrl>..\LICENSE</PackageLicenseUrl>
+    <license type="file">..\LICENSE.</license>
     <PackageProjectUrl>https://github.com/BrewingCoder/NhibernateUoWRepoPattern</PackageProjectUrl>
     <Version>1.1.0</Version>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
