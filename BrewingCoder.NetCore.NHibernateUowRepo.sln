@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrewingCoder.NetCore.NHibernateUowRepo", "BrewingCoder.NetCore.NHibernateUowRepo\BrewingCoder.NetCore.NHibernateUowRepo.csproj", "{BDCF8EB7-765C-49C8-AC03-26504C3C2693}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDCF8EB7-765C-49C8-AC03-26504C3C2693}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDCF8EB7-765C-49C8-AC03-26504C3C2693}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDCF8EB7-765C-49C8-AC03-26504C3C2693}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDCF8EB7-765C-49C8-AC03-26504C3C2693}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B89CAF57-6EF3-4966-B671-60AF1A3F62BD}
+	EndGlobalSection
+EndGlobal
