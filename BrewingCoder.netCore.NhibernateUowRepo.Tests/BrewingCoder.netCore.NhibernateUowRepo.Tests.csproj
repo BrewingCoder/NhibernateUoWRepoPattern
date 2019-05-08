@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+
+    <RootNamespace>BrewingCoder.netCore.NHibernateUowRepo.Tests</RootNamespace>
+
+    <AssemblyName>BrewingCoder.netCore.NHibernateUowRepo.Tests</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Faker" Version="1.2.0" />
+    <PackageReference Include="FluentNHibernate" Version="2.1.2" />
+    <PackageReference Include="Moq" Version="4.10.1" />
+    <PackageReference Include="MySql.Data" Version="8.0.16" />
+    <PackageReference Include="NBuilder" Version="6.0.0" />
+    <PackageReference Include="NHibernate" Version="5.2.5" />
+    <PackageReference Include="nunit" Version="3.11.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.13.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BrewingCoder.NetCore.NHibernateUowRepo\BrewingCoder.NetCore.NHibernateUowRepo.csproj" />
+  </ItemGroup>
+
+</Project>
