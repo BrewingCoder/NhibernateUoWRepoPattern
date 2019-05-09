@@ -17,9 +17,9 @@ namespace BrewingCoder.netCore.NHibernateUowRepo.Tests
         }
 
         [Test]
-        public void AlwaysAFailureTest()
-        {
-            Assert.IsTrue(false);
-        }
+        //public void AlwaysAFailureTest()
+        //{
+        //    Assert.IsTrue(false);
+        //}
     }
 }
