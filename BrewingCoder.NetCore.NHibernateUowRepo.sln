@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrewingCoder.NetCore.NHiber
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrewingCoder.netCore.NhibernateUowRepo.Tests", "BrewingCoder.netCore.NhibernateUowRepo.Tests\BrewingCoder.netCore.NhibernateUowRepo.Tests.csproj", "{E3DF1A3C-7331-4767-964C-7C9A55202AB6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BB2BA990-1B3E-4AB7-8115-A0B626E60874}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
